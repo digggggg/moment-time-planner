@@ -45,7 +45,7 @@ function init(){
     hourColor();
     loadSave();
 
-    $('.savBtn').on('click', function(){
+    $('.saveBtn').on('click', function(){
         var data = $(this).siblings('.description').val()
         var locData = $(this).parent().attr('id')
         localStorage.setItem(locData, data)
